@@ -1,0 +1,243 @@
+\documentclass[9pt]{article}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[usenames]{color}
+\usepackage{hyperref}
+
+\hypersetup{
+  urlbordercolor = {1 1 1}
+}
+
+\leftmargin=0.25in
+\oddsidemargin=0.25in
+\textwidth=6.0in
+\topmargin=-0.25in
+\textheight=9.25in
+
+\raggedright
+
+\pagenumbering{arabic}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+% DEFINITIONS FOR RESUME
+
+\newenvironment{changemargin}[2]{%
+  \begin{list}{}{%
+    \setlength{\topsep}{0pt}%
+    \setlength{\leftmargin}{#1}%
+    \setlength{\rightmargin}{#2}%
+    \setlength{\listparindent}{\parindent}%
+    \setlength{\itemindent}{\parindent}%
+    \setlength{\parsep}{\parskip}%
+  }%
+  \item[]}{\end{list}
+}
+
+\newcommand{\lineover}{
+	\begin{changemargin}{-0.05in}{-0.05in}
+		\vspace*{-8pt}
+		\hrulefill \\
+		\vspace*{-2pt}
+	\end{changemargin}
+}
+
+\newcommand{\header}[1]{
+	\begin{changemargin}{-0.5in}{-0.5in}
+		\scshape{#1}\\
+  	\lineover
+	\end{changemargin}
+}
+
+\newcommand{\contact}[5]{
+	\begin{changemargin}{-0.5in}{-0.5in}
+		\begin{center}
+			{\Large \scshape {#1}}\\ \smallskip
+			{#2}\\ \smallskip 
+			{#3}\\ \smallskip
+			{#4}\\ \smallskip
+			{#5}\\ \smallskip
+		\end{center}
+	\end{changemargin}
+}
+
+\newenvironment{body} {
+	\vspace*{-16pt}
+	\begin{changemargin}{-0.25in}{-0.5in}
+  }	
+	{\end{changemargin}
+}	
+
+\newcommand{\school}[4]{
+	\textbf{#1} \hfill \emph{#2\\}
+	#3\\ 
+	#4\\
+}
+
+% END RESUME DEFINITIONS
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Name
+\contact{Krish Perumal}{Dieburger Str. 77, 64287 Darmstadt, Hesse, Germany}{+49 151 66059661}{krishperumal11@gmail.com}{\url{http://www.krishperumal.com}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Objective
+% \header{Objective}
+% 
+% \begin{body}
+% 	\vspace{14pt}
+% 	To get a job
+% \end{body}
+% 
+% \smallskip
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Education
+\header{Education}
+
+\begin{body}
+	\vspace{14pt}
+	\textbf{M.Sc.(Tech)* Information Systems --- GPA 9.26/10}{} \hfill \emph{July 2012}{} \\
+	\emph{Birla Institute of Technology and Science, Pilani}, Rajasthan, India{} \\
+	\smallskip
+	\scriptsize{*This is a bachelor's degree equivalent to the Bachelor of Engineering awarded at other Indian universities} \\
+\end{body}
+
+\smallskip
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Experience
+\header{Experience}
+
+\begin{body}
+	\vspace{14pt}
+	\textbf{Research Assistant}, \emph{Ubiquitous Knowledge Processing Lab} \hfill \emph{Apr 2013 - Present} \\
+	\emph{Technische Universitat Darmstadt, Darmstadt, Germany} \\
+	\emph{Supervisor}: Prof. Dr. Iryna Gurevych (\url{http://www.ukp.tu-darmstadt.de/people/gurevych}) \\
+	\emph{Project}: Language-independent classification of edits in Wikipedia \\
+	
+	\medskip
+	
+	\textbf {Project Engineer}, \emph{Search and Information Extraction Lab} \hfill \emph{Jul 2012 - Feb 2013} \\
+	\emph{International Institute of Information Technology, Hyderabad, India} \\
+	\emph{Advisor}: Prof. Vasudeva Varma (\url{http://faculty.iiit.ac.in/~vv/Home.html}) \\
+	\emph{Project}: Cross Lingual Information Access \\
+	Developed modules/plugins for a cross-lingual web search engine for Indian languages (Apache Nutch framework) called Sandhan (\url{http://www.tdil-dc.in/sandhan/}). 
+	This project is funded by the Government of India.
+	
+	\medskip
+	
+	\textbf {Intern}, \emph{NetApp Inc., Bangalore, India} \hfill \emph{Jan - Jun 2012} \\
+	\emph{Advisor}: Jayanta Basak (Member Technical Staff, NetApp) \\
+	\emph{Project}: Workload Characterization Using Trace Segmentation \\
+	Development and implementation of a technique for storage workload characterization using time series segmentation and Markov chain modeling (coded in Octave) \\
+	
+	\medskip
+	
+	\textbf {Summer Research Fellow}, \emph{Indian Statistical Institute, Kolkata, India} \hfill \emph{May - Jul 2011} \\
+	\emph{Advisor}: Prof. Bidyut Baran Chaudhuri (\url{http://www.isical.ac.in/~bbc/}) \\
+	\emph{Project}: PageRank based Single Document Summarization \\
+	Development and implementation of a sentence extraction based text summarization technique using PageRank scoring (coded in C++ and Java). Online demo: \url{http://lightweightsummarizer.appspot.com/}
+
+\end{body}
+
+\smallskip
+
+% \newpage{} % uncomment this line if you want to force a new page
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Publications
+\header{Publications}
+
+\begin{body}
+	\vspace{14pt}
+	Nikhil Priyatam, Srinivasan Iyenger, \textbf{Krish Perumal} and Vasudeva Varma. Don't Use a Lot When Little Will Do - Genre Identication Using URLs. 
+\emph{Complementary proceedings of CICLing 2013 (14th International Conference on Intelligent Text Processing and Computational Linguistics)} \\ \url{http://bit.ly/genre_cicling_2013}
+	
+	\medskip
+	
+	\textbf{Krish Perumal}, Jagan Mohan Ungati, Gaurav Kumar, Nitish Jain, Raj Gaurav and Praveen Ranjan Srivastava. Test Data Generation: A Hybrid Approach Using Cuckoo and Tabu Search. \emph{Proceedings of Swarm, Evolutionary and Memetic Computing Conference 2011}, Part II, LNCS 7077, pp. 46–54. \\ \url{http://link.springer.com/chapter/10.1007/978-3-642-27242-4_6}
+	
+	\medskip
+	
+	\textbf{Krish Perumal} and Bidyut Baran Chaudhuri. Test Data Generation: A Hybrid Approach Using Cuckoo and Tabu Search. \emph{Proceedings of ICON-2011: 9th International Conference on Natural Language Processing, Macmillan Publishers, India}. \\
+	\url{http://bit.ly/krish_icon_2011}
+\end{body}
+
+\newpage{}
+%\smallskip
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Projects
+\header{Projects}
+
+\begin{body}
+	\vspace{14pt}
+	\emph{\textbf{Test Data Generation: A Hybrid Approach Using Cuckoo and Tabu Search}} \\
+	Research and development of a test data generation technique using C++ under Prof. Praveen Ranjan Srivastava (Lecturer, Department of Computer
+Science and Information Systems, BITS Pilani)
+	
+	\medskip
+	
+	\emph{\textbf{Edu-Connect}} \\
+	Developed a web application using WAMP (Windows, Apache, MySQL, PHP) to enable professor-student
+interaction at educational institutions with features like appointment management and automated
+SMS notification
+
+\end{body}
+
+\smallskip
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Skills
+\header{Skills}
+
+\begin{body}
+	\vspace{14pt}
+	\emph{\textbf{Programming:}}{} C, Java, C++, MATLAB, Octave, HTML/CSS, Javascript, PHP, JSP, Servlets \\
+	\medskip
+	\emph{\textbf{Web Technologies:}}{} Apache Tomcat, Apache Nutch, Eclipse IDE \\
+	\medskip
+	\emph{\textbf{Database Management Systems:}}{} MySQL, Oracle, Microsoft Access
+\end{body}
+
+\smallskip
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Achievements
+\header{Achievements}
+
+\begin{body}
+	\vspace{14pt}
+	Ranked 1 among 60 students in the undergraduate class of Information Systems 2012 \\
+	Selected as Summer Research Fellow by Indian Academy of Sciences in 2011 (research funding for 2 months) \\
+	Best Student Award, Mount Carmel School (2007-08) \\
+	All India Rank 12 in the All India Erose Open Examination \\
+	Hemant Takulia Memorial Award for 98\% in Physics in grade 12 \\
+	Special prize for best school performance of 94\% in French in grade 10 \\
+	Rupali Vaish Memorial Award for 98\% in Biology in grade 10 \\
+\end{body}
+
+\smallskip
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Leadership activities
+\header{Leadership Activities}
+
+\begin{body}
+	\vspace{14pt}
+	\emph{Director}, People-Process-Culture, Nirmaan Organization, India (2011) \\
+	\emph{President}, Nirmaan Organization’s BITS Pilani Chapter (2010) \\
+	\emph{Coordinator}, Information Systems Association, BITS Pilani (2010-11) \\
+	\emph{Campus Ambassador}, Teach For India’s BITS Pilani Chapter (2010-11) \\
+	\emph{School Captain/Head Boy}, Mount Carmel School, New Delhi (2006-07) \\
+\end{body}
+
+
+\end{document}
