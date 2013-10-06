@@ -156,7 +156,7 @@
 
 \begin{body}
 	\vspace{14pt}
-	Nikhil Priyatam, Srinivasan Iyenger, \textbf{Krish Perumal} and Vasudeva Varma. Don't Use a Lot When Little Will Do - Genre Identification Using URLs. 
+	Nikhil Priyatam, Srinivasan Iyenger, \textbf{Krish Perumal} and Vasudeva Varma. Don't Use a Lot When Little Will Do - Genre Identication Using URLs. 
 \emph{Complementary proceedings of CICLing 2013 (14th International Conference on Intelligent Text Processing and Computational Linguistics)} \\ \url{http://bit.ly/genre_cicling_2013}
 	
 	\medskip
@@ -169,8 +169,16 @@
 	\url{http://bit.ly/krish_icon_2011}
 \end{body}
 
-\newpage{}
-%\smallskip
+\smallskip
+
+Projects
+
+Implemented using C++ under Mr. Praveen Ranjan Srivastava (Lecturer, Department of Computer
+Science and Information Systems, BITS Pilani)
+Edu-Connect
+A web application using WAMP (Windows, Apache, MySQL, PHP) to enable professor-student
+interaction at educational institutions with features like appointment management and automated
+SMS notification
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Projects
@@ -179,15 +187,14 @@
 \begin{body}
 	\vspace{14pt}
 	\emph{\textbf{Test Data Generation: A Hybrid Approach Using Cuckoo and Tabu Search}} \\
-	Research and development of a test data generation technique using C++ under Prof. Praveen Ranjan Srivastava (Lecturer, Department of Computer
+	Implemented using C++ under Prof. Praveen Ranjan Srivastava (Lecturer, Department of Computer
 Science and Information Systems, BITS Pilani)
 	
 	\medskip
 	
 	\emph{\textbf{Edu-Connect}} \\
-	Developed a web application using WAMP (Windows, Apache, MySQL, PHP) to enable professor-student
-interaction at educational institutions with features like appointment management and automated
-SMS notification
+	Implemented using C++ under Prof. Praveen Ranjan Srivastava (Lecturer, Department of Computer
+Science and Information Systems, BITS Pilani)
 
 \end{body}
 
@@ -199,45 +206,42 @@ SMS notification
 
 \begin{body}
 	\vspace{14pt}
-	\emph{\textbf{Programming:}}{} C, Java, C++, MATLAB, Octave, HTML/CSS, Javascript, PHP, JSP, Servlets \\
+	\emph{\textbf{Programming:}}{} Java, HTML/CSS, bash, batch, JavaScript,
+STAF/STAX, Rational Functional Tester, \LaTeX, Ruby on Rails, Python, PHP,
+Visual Basic, SQL, Expect, WinTask, Injection, HyperScript, C++, C, Assembly\\
 	\medskip
-	\emph{\textbf{Web Technologies:}}{} Apache Tomcat, Apache Nutch, Eclipse IDE \\
-	\medskip
-	\emph{\textbf{Database Management Systems:}}{} MySQL, Oracle, Microsoft Access
-\end{body}
-
-\smallskip
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Achievements
-\header{Achievements}
-
-\begin{body}
-	\vspace{14pt}
-	Ranked 1 among 60 students in the undergraduate class of Information Systems 2012 \\
-	Selected as Summer Research Fellow by Indian Academy of Sciences in 2011 (research funding for 2 months) \\
-	Best Student Award, Mount Carmel School (2007-08) \\
-	All India Rank 12 in the All India Erose Open Examination \\
-	Hemant Takulia Memorial Award for 98\% in Physics in grade 12 \\
-	Special prize for best school performance of 94\% in French in grade 10 \\
-	Rupali Vaish Memorial Award for 98\% in Biology in grade 10 \\
+	\emph{\textbf{Operating Systems:}}{} Windows, Mac OS X, Linux, UNIX\\
 \end{body}
 
 \smallskip
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Leadership activities
+% Leadership
 \header{Leadership Activities}
 
 \begin{body}
 	\vspace{14pt}
-	\emph{Director}, People-Process-Culture, Nirmaan Organization, India (2011) \\
-	\emph{President}, Nirmaan Organization, BITS Pilani Chapter (2010) \\
-	\emph{Coordinator}, Information Systems Association, BITS Pilani (2010-11) \\
-	\emph{Campus Ambassador}, Teach For India, BITS Pilani Chapter (2010-11) \\
-	\emph{School Captain/Head Boy}, Mount Carmel School, New Delhi (2006-07) \\
+	\textbf{Co-founder, President}, Students in Software Engineering (SSE)
+\hfill {} \emph{Summer 2008 - Spring 2011}\\
+	\smallskip
+	\textbf{Mentor}, Undergraduate and graduate student mentor \hfill{}
+\emph{Fall 2007 - Spring 2011}\\
 \end{body}
 
+\smallskip
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Awards and Honors
+\header{Awards and Honors}
+
+\begin{body}
+	\vspace{14pt}
+	\textbf{College Scholar}, The University of Texas at Austin \hfill{}
+\emph{2003 - 2005}\\
+	\smallskip
+	\textbf{Runner-up}, Moore Elementary Recycling Slogan Contest
+\end{body}
 
 \end{document}
