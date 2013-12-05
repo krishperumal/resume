@@ -1,4 +1,4 @@
-\documentclass[9pt]{article}
+\documentclass[11pt]{article}
 \usepackage{fullpage}
 \usepackage{amsmath}
 \usepackage{amssymb}
@@ -101,10 +101,10 @@
 
 \begin{body}
 	\vspace{14pt}
-	\textbf{M.Sc.(Tech)* Information Systems --- GPA 9.22/10, Major GPA 9.26/10}{} \hfill \emph{July 2012}{} \\
+	\textbf{M.Sc.(Tech.)* Information Systems --- GPA 9.22/10, Major GPA 9.26/10}{} \hfill \emph{July 2012}{} \\
 	\emph{Birla Institute of Technology and Science, Pilani}, Rajasthan, India{} \\
 	\smallskip
-	\scriptsize{*This is a bachelor's degree equivalent to the Bachelor of Engineering awarded at other Indian universities} \\
+	\scriptsize{*This is an undergraduate degree equivalent to the Bachelor of Engineering awarded at other Indian universities} \\
 \end{body}
 
 \smallskip
@@ -112,38 +112,39 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Experience
-\header{Experience}
+\header{Work Experience}
 
 \begin{body}
 	\vspace{14pt}
 	\textbf{Research Assistant}, \emph{Ubiquitous Knowledge Processing Lab} \hfill \emph{Apr 2013 - Present} \\
 	\emph{Technische Universität Darmstadt, Darmstadt, Germany} \\
-	\emph{Supervisor}: Prof. Dr. Iryna Gurevych (\url{http://www.ukp.tu-darmstadt.de/people/gurevych}) \\
-	\emph{Projects}: Automatic mining and extraction of arguments for intelligent essay writing assistance (current) \\ 
-	\hspace{40pt} Language-independent classification of edits in Wikipedia (completed) \\
+	\emph{Advisor}: Prof. Dr. Iryna Gurevych (\url{http://www.ukp.tu-darmstadt.de/people/gurevych}) \\
+	\emph{Projects}: Automatic mining and extraction of arguments for intelligent essay writing assistance \\ 
+	\hspace{42pt} Language-independent classification of edits in Wikipedia (completed) \\
 	
 	\medskip
 	
-	\textbf {Project Engineer}, \emph{Search and Information Extraction Lab} \hfill \emph{Jul 2012 - Feb 2013} \\
+	\textbf {Research Assistant}, \emph{Search and Information Extraction Lab} \hfill \emph{Jul 2012 - Feb 2013} \\
 	\emph{International Institute of Information Technology, Hyderabad, India} \\
 	\emph{Advisor}: Prof. Vasudeva Varma (\url{http://faculty.iiit.ac.in/~vv/Home.html}) \\
 	\emph{Project}: Cross Lingual Information Access \\
-	Developed modules/plugins for a cross-lingual web search engine for Indian languages (Apache Nutch framework) called Sandhan (\url{http://www.tdil-dc.in/sandhan/}). 
+	Developed modules/plugins for a cross-lingual web search engine for Indian languages (Apache Nutch framework) called Sandhan (\url{http://www.tdil-dc.in/sandhan}).
 	This project is funded by the Government of India.
 	
 	\medskip
 	
 	\textbf {Intern}, \emph{NetApp Inc., Bangalore, India} \hfill \emph{Jan - Jun 2012} \\
-	\emph{Advisor}: Jayanta Basak (Member Technical Staff, NetApp) \\
+	\emph{Advisor}: Dr. Jayanta Basak (Member Technical Staff, NetApp India Pvt. Ltd., Bangalore, India) \\
 	\emph{Project}: Workload Characterization Using Trace Segmentation \\
-	Development and implementation of a technique for storage workload characterization using time series segmentation and Markov chain modeling (coded in Octave) \\
+	Development and implementation of a technique for storage workload characterization using time series segmentation and Markov chain modeling \\
 	
 	\medskip
 	
 	\textbf {Summer Research Fellow}, \emph{Indian Statistical Institute, Kolkata, India} \hfill \emph{May - Jul 2011} \\
-	\emph{Advisor}: Prof. Bidyut Baran Chaudhuri (\url{http://www.isical.ac.in/~bbc/}) \\
-	\emph{Project}: PageRank based Single Document Summarization \\
-	Development and implementation of a sentence extraction based text summarization technique using PageRank scoring (coded in C++ and Java). Online demo: \url{http://lightweightsummarizer.appspot.com/}
+	\emph{Advisor}: Prof. Bidyut Baran Chaudhuri (\url{http://www.isical.ac.in/~bbc}) \\
+	\emph{Project}: PageRank-based Single Document Summarization \\
+	Development and implementation of a sentence extraction based text summarization technique using PageRank scoring \\
+	Online demo: \url{http://lightweightsummarizer.appspot.com}
 
 \end{body}
 
@@ -162,20 +163,19 @@
 	
 	\medskip
 	
-	\textbf{Krish Perumal}, Jagan Mohan Ungati, Gaurav Kumar, Nitish Jain, Raj Gaurav and Praveen Ranjan Srivastava. Test Data Generation: A Hybrid Approach Using Cuckoo and Tabu Search. \emph{Proceedings of Swarm, Evolutionary and Memetic Computing Conference 2011}, Part II, LNCS 7077, pp. 46–54. \\ \url{http://link.springer.com/chapter/10.1007/978-3-642-27242-4_6}
+	\textbf{Krish Perumal}, Jagan Mohan Ungati, Gaurav Kumar, Nitish Jain, Raj Gaurav and Praveen Ranjan Srivastava. Test Data Generation: A Hybrid Approach Using Cuckoo and Tabu Search. \emph{In Swarm, Evolutionary, and Memetic Computing}, pp. 46-54. Springer Berlin Heidelberg, 2011.\\ \url{http://bit.ly/cuckoo_search_2011}
 	
 	\medskip
 	
-	\textbf{Krish Perumal} and Bidyut Baran Chaudhuri. Test Data Generation: A Hybrid Approach Using Cuckoo and Tabu Search. \emph{Proceedings of ICON-2011: 9th International Conference on Natural Language Processing, Macmillan Publishers, India}. \\
+	\textbf{Krish Perumal} and Bidyut Baran Chaudhuri. Test Data Generation: A Hybrid Approach Using Cuckoo and Tabu Search. \emph{Proceedings of ICON-2011: 9th International Conference on Natural Language Processing}, pp. 213-218, Macmillan Publishers, India. \\
 	\url{http://bit.ly/krish_icon_2011}
 \end{body}
 
-\newpage{}
-%\smallskip
+\smallskip
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Projects
-\header{Projects}
+\header{Academic Projects}
 
 \begin{body}
 	\vspace{14pt}
@@ -200,9 +200,9 @@ SMS notification
 
 \begin{body}
 	\vspace{14pt}
-	\emph{\textbf{Programming:}}{} C, Java, C++, MATLAB, Octave, HTML/CSS, Javascript, PHP, JSP, Servlets \\
+	\emph{\textbf{Programming:}}{} C, Java, MATLAB, Octave, HTML/CSS, Javascript, PHP, JSP, Servlets \\
 	\medskip
-	\emph{\textbf{Web Technologies:}}{} Apache Tomcat, Apache Nutch, Eclipse IDE \\
+	\emph{\textbf{Web Technologies:}}{} Apache Tomcat, Apache Nutch \\
 	\medskip
 	\emph{\textbf{Database Management Systems:}}{} MySQL, Oracle, Microsoft Access
 \end{body}
@@ -216,12 +216,9 @@ SMS notification
 \begin{body}
 	\vspace{14pt}
 	Ranked 1 among 60 students in the undergraduate class of Information Systems 2012 \\
-	Selected as Summer Research Fellow by Indian Academy of Sciences in 2011 (research funding for 2 months) \\
+	Summer Research Fellow of Indian Academy of Sciences in 2011 (research funding for 2 months) \\
 	Best Student Award, Mount Carmel School (2007-08) \\
 	All India Rank 12 in the All India Erose Open Examination \\
-	Hemant Takulia Memorial Award for 98\% in Physics in grade 12 \\
-	Special prize for best school performance of 94\% in French in grade 10 \\
-	Rupali Vaish Memorial Award for 98\% in Biology in grade 10 \\
 \end{body}
 
 \smallskip
@@ -229,16 +226,15 @@ SMS notification
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Leadership activities
-\header{Leadership Activities}
+\header{Leadership Experience}
 
 \begin{body}
 	\vspace{14pt}
-	\emph{Director}, People-Process-Culture, Nirmaan Organization, India (2011) \\
-	\emph{President}, Nirmaan Organization, BITS Pilani Chapter (2010) \\
+	\emph{Director}, People-Process-Culture, Nirmaan Organization (\url{http://www.nirmaan.org}), India (2011) \\
+	\emph{Campus Ambassador}, Teach For India (\url{http://www.teachforindia.org}), BITS Pilani (2011) \\
 	\emph{Coordinator}, Information Systems Association, BITS Pilani (2010-11) \\
-	\emph{Campus Ambassador}, Teach For India, BITS Pilani Chapter (2010-11) \\
+	\emph{President}, Nirmaan Organization, BITS Pilani Chapter (2010) \\
 	\emph{School Captain/Head Boy}, Mount Carmel School, New Delhi (2006-07) \\
 \end{body}
-
 
 \end{document}
