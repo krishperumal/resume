@@ -4,6 +4,7 @@
 \usepackage{amssymb}
 \usepackage[usenames]{color}
 \usepackage{hyperref}
+\usepackage[utf8]{inputenc}
 
 \hypersetup{
   urlbordercolor = {1 1 1}
